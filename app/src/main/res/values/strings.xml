@@ -1,0 +1,88 @@
+<resources>
+    <string name="server">http://redost.pl/</string>
+    <string name="app_name">Statki</string>
+    <string name="action_settings">Settings</string>
+    <string name="MainMenu1">New Game</string>
+    <string name="MainMenu2">Settings</string>
+    <string name="MainMenu3">Statistics</string>
+    <string name="MainMenu4">About</string>
+
+    <string name="MainMenu1_1">Single Player</string>
+    <string name="MainMenu1_2">Multiplayer</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_game_type">gameType</string>
+    <string name="title_activity_game_list">gameList</string>
+
+    <string name="login_btn_label">Login</string>
+    <string name="dialog_login_text">You have to been logged to play with other players.</string>
+    <string name="dialog_login_login">Login</string>
+    <string name="dialog_login_cancel">Cancel</string>
+    <string name="title_activity_login">loginActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="title_activity_gra">Gra</string>
+    <string name="title_activity_board">BoardActivity</string>
+    <string name="title_activity_usuniecie">usuniecie</string>
+    <string name="title_activity_finish_game">FinishGameActivity</string>
+</resources>

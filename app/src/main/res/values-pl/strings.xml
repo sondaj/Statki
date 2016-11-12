@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="MainMenu1">Nowa Gra</string>
+    <string name="MainMenu2">Ustawienia</string>
+    <string name="MainMenu3">Statystyki</string>
+    <string name="MainMenu4">O Programie</string>
+
+    <string name="MainMenu1_1">Jeden Gracz</string>
+    <string name="MainMenu1_2">Gra Dwuosobowa</string>
+
+    <string name="login_btn_label">Zaloguj</string>
+    <string name="dialog_login_text">Musisz się zalogować żeby zagrać z innymi graczami.</string>
+    <string name="dialog_login_login">Zaloguj</string>
+    <string name="dialog_login_cancel">Anuluj</string>
+
+
+    <string name="pref_header_general">Generalne</string>
+
+    <string name="pref_title_social_recommendations">łącze społecznościowe</string>
+    <string name="pref_description_social_recommendations">pozwól znajomym z serwisów społecznościowych odnajdywać cię w aplikacji</string>
+
+    <string name="pref_title_display_name">Wyświetlana nazwa</string>
+    <string name="pref_default_display_name">Jan Nowak</string>
+
+    <string name="pref_title_add_friends_to_messages">Dodaj znajomych do wiadomości</string>
+    <string-array name="pref_example_list_titles">
+        <item>Zawsze</item>
+        <item>Kiedy możliwe</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Dane i Synchronizacja</string>
+
+    <string name="pref_title_sync_frequency">Częstotliwość synchronizacji</string>
+    <string-array name="pref_sync_frequency_titles">
+    <item>15 minut</item>
+    <item>30 minut</item>
+    <item>1 godzina</item>
+    <item>3 godziny</item>
+    <item>6 godzin</item>
+    <item>Nigdy</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">Ustawienia systemowe synchronizacji</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Powiadomienia</string>
+
+    <string name="pref_title_new_message_notifications">Powiadomienia zaproszeń do gry</string>
+
+    <string name="pref_title_ringtone">Dżwięk powiadomienia</string>
+    <string name="pref_ringtone_silent">Wycisz</string>
+
+    <string name="pref_title_vibrate">Wibracje</string>
+</resources>

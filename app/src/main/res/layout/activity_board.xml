@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:id="@+id/layout_boards"
+    android:background="@drawable/tlo"
+    tools:context="com.example.sebastian.statki.BoardActivity"
+    android:gravity="bottom|right">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/BoardPlatR1">
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content" android:layout_height="match_parent"
+            android:id="@+id/BoardPlat1"
+            android:animateLayoutChanges="true">
+        </TableLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lay_rt_board2"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/BoardPlat1"
+            android:layout_toEndOf="@+id/BoardPlat1">
+            <ImageView
+                android:id="@+id/b_ship_s1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat" />
+            <ImageView
+                android:id="@+id/b_ship_s2"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat" />
+            <ImageView
+                android:id="@+id/b_ship_s3"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat" />
+            <ImageView
+                android:id="@+id/b_ship_s4"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat" />
+            <ImageView
+                android:id="@+id/b_ship_s5"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/lay_rt_board3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/BoardPlat1"
+            android:layout_toEndOf="@+id/BoardPlat1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obróć"
+                android:id="@+id/b_obrot"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Random"
+                android:id="@+id/b_random"
+                android:layout_below="@+id/b_place" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:id="@+id/b_start"
+                android:layout_below="@+id/b_random" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/BoardPlatR2"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/BoardPlat2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="31dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
